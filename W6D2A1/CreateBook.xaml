@@ -1,0 +1,25 @@
+﻿<Window x:Class="W6D2A1.CreateBook"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:W6D2A1"
+        mc:Ignorable="d"
+        Title="CreateBook" Height="542" Width="405">
+    <Grid>
+        <Image HorizontalAlignment="Left" Height="511" VerticalAlignment="Top" Width="397" Margin="0,0,0,-94" Source="alex-loup-2zDw14yCYqk-unsplash.jpg" Stretch="UniformToFill"/>
+        <Label x:Name="lblID" Content="Book ID:" HorizontalAlignment="Left" Margin="112,72,0,0" VerticalAlignment="Top" FontWeight="Bold" FontFamily="Segoe Print"/>
+        <Label x:Name="lblTitle" Content="Book Title:" HorizontalAlignment="Left" Margin="99,121,0,0" VerticalAlignment="Top" FontWeight="Bold" FontFamily="Segoe Print"/>
+        <Label x:Name="lblAuthor" Content="Author Name:" HorizontalAlignment="Left" Margin="77,165,0,0" VerticalAlignment="Top" FontWeight="Bold" FontFamily="Segoe Print"/>
+        <Label x:Name="lblYear" Content="Published Year:" HorizontalAlignment="Left" Margin="72,212,0,0" VerticalAlignment="Top" FontWeight="Bold" FontFamily="Segoe Print"/>
+        <Label x:Name="lblPrice" Content="Price:" HorizontalAlignment="Left" Margin="129,257,0,0" VerticalAlignment="Top" FontWeight="Bold" FontFamily="Segoe Print"/>
+        <TextBox x:Name="txtID" Background="PaleGreen" HorizontalAlignment="Left" Height="23" Margin="183,75,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="170"/>
+        <TextBox x:Name="txtTitle" Background="PaleGreen" HorizontalAlignment="Left" Height="23" Margin="183,121,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="170"/>
+        <TextBox x:Name="txtAuthor" Background="PaleGreen" HorizontalAlignment="Left" Height="23" Margin="183,165,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="171"/>
+        <TextBox x:Name="txtYear" Background="PaleGreen" HorizontalAlignment="Left" Height="23" Margin="183,212,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="170"/>
+        <TextBox x:Name="txtPrice" Background="PaleGreen" HorizontalAlignment="Left" Height="23" Margin="183,257,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="170"/>
+        <Button x:Name="btnAddBook" Content="Add Book" Background="DarkSeaGreen" HorizontalAlignment="Left" Margin="10,306,0,0" VerticalAlignment="Top" Width="125" Height="39" FontFamily="Perpetua Titling MT" Click="btnAddBook_Click"/>
+        <Label x:Name="lbl2WindHeader" Content="Create A New Book" HorizontalAlignment="Left" Margin="57,10,0,0" VerticalAlignment="Top" FontSize="28" FontWeight="Bold" FontFamily="Viner Hand ITC"/>
+
+    </Grid>
+</Window>
